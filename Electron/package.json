@@ -1,0 +1,16 @@
+{
+  "name": "frequent-reflection-are-ir80v",
+  "productName": "frequent-reflection-are-ir80v",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "mb",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "41.1.1"
+  }
+}
