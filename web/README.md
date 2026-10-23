@@ -1,4 +1,4 @@
-python -m http.server 8080
+``python -m http.server 8080``
 
 
 # BeatCut Studio – Detaillierte Projekt- und Funktionsbeschreibung
@@ -1730,4 +1730,3 @@ Die Oberfläche bleibt dabei auf ein modernes, dunkles, klar gegliedertes Studio
 
 Damit bildet BeatCut Studio die Grundlage für einen eigenständigen lokalen Videoeditor, dessen Schwerpunkt auf **schneller Bearbeitung, Musik, Automatisierung und Social-Media-Video** liegt.
 
-``python -m http.server 8080``
