@@ -1729,3 +1729,5 @@ Der Editor soll besonders dann stark sein, wenn aus vielen Bildern und kurzen Vi
 Die Oberfläche bleibt dabei auf ein modernes, dunkles, klar gegliedertes Studio-Layout ausgerichtet: Medien links, Vorschau in der Mitte, Eigenschaften rechts und eine große mehrspurige Timeline im unteren Bereich.
 
 Damit bildet BeatCut Studio die Grundlage für einen eigenständigen lokalen Videoeditor, dessen Schwerpunkt auf **schneller Bearbeitung, Musik, Automatisierung und Social-Media-Video** liegt.
+
+``python -m http.server 8080``
