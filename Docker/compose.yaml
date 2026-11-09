@@ -1,0 +1,23 @@
+services:
+  beatcut:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: beatcut-studio:0.4.2
+    container_name: beatcut-studio
+    init: true
+    restart: unless-stopped
+    ports:
+      # Secure default: accessible on the Docker host only.
+      # For LAN access change BEATCUT_BIND_IP to 0.0.0.0 consciously.
+      - "${BEATCUT_BIND_IP:-127.0.0.1}:${BEATCUT_PORT:-5000}:5000"
+    environment:
+      NODE_ENV: production
+      PORT: "5000"
+      HOST: 0.0.0.0
+      BEATCUT_ALLOW_REMOTE: "1"
+      BEATCUT_DATA_DIR: /app/data
+    volumes:
+      - ./data:/app/data
+    shm_size: "256m"
+    stop_grace_period: 30s

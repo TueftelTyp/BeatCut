@@ -1,0 +1,14 @@
+.git
+.github
+node_modules
+**/node_modules
+.DS_Store
+*.zip
+.env
+.env.*
+!.env.example
+backend/test
+QA_REPORT.md
+*.log
+data/**
+!data/.gitkeep

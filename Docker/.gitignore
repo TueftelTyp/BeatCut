@@ -1,0 +1,7 @@
+# BeatCut user data (never commit uploads, projects, renders, DB or backups)
+/data/**
+!/data/.gitkeep
+.env
+node_modules/
+*.log
+.DS_Store
